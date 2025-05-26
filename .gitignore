@@ -1,0 +1,70 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# Build artifacts
+build/
+build-*/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.o
+*.obj
+*.pyc
+
+# CMake / Ninja / West cache
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+ninja.build
+compile_commands.json
+zephyr/.zephyr*
+zephyr/include/generated/
+zephyr/zephyr.elf
+zephyr/zephyr.hex
+zephyr/zephyr.bin
+zephyr/zephyr.map
+zephyr/zephyr.lst
+
+# West
+west/build/
+modules/hal/nordic/.west/
+*.swp
+
+# Zephyr generated folders
+*.log
+*.orig
+*.rej
+*.bak
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# nRF Connect SDK generated
+.nrfconnect-logs/
+.nrfconnect/
+
+# Misc
+.idea/
+*.DS_Store
+*.log
+*.swo
+*.swn
+*.svd
+*.zip
+*.tar.gz
+*.tar
+
+# SEGGER RTT or logs
+*.rtt
+*.log
+*.rtd
+*.jlink
+JLinkLog.txt
+RTTViewer.log
